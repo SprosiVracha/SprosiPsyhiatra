@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СпросиПсихиатра — Онлайн консультации психиатра</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333333;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 12px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .header-container {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .breadcrumbs {
+            font-size: 13px;
+            color: #777777;
+            margin-bottom: 15px;
+        }
+
+        .breadcrumbs a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+
+        .page-title-box {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .page-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #222222;
+        }
+
+        .page-desc {
+            font-size: 14px;
+            color: #555555;
+            margin-bottom: 15px;
+        }
+
+        .btn-ask {
+            display: inline-block;
+            background-color: #3182ce;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .question-card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .question-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .question-title a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+
+        .question-title a:hover {
+            text-decoration: underline;
+        }
+
+        .question-meta {
+            font-size: 12px;
+            color: #888888;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 14px;
+            color: #444444;
+            margin-bottom: 15px;
+        }
+
+        .doctor-answer-preview {
+            background-color: #ebf8ff;
+            border-left: 3px solid #3182ce;
+            padding: 10px 12px;
+            border-radius: 0 6px 6px 0;
+            font-size: 13px;
+        }
+
+        .doctor-info {
+            font-weight: 600;
+            color: #222222;
+            margin-bottom: 4px;
+        }
+
+        .doctor-spec {
+            font-size: 11px;
+            color: #777777;
+            font-weight: normal;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #888888;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">СпросиПсихиатра</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="index.html">Главная</a> — Онлайн консультация психиатра
+        </div>
+
+        <div class="page-title-box">
+            <h1 class="page-title">Онлайн консультации психиатра</h1>
+            <p class="page-desc">Психиатр – врач, занимающийся диагностикой, поддержкой и лечением особенностей восприятия, нейроотличностей, тревожных состояний и расстройств.</p>
+            <span class="btn-ask">Задать вопрос</span>
+        </div>
+
+        <!-- Ваш вопрос -->
+        <div class="question-card">
+            <h2 class="question-title"><a href="question.html">Вопрос про чувствительность к запахам при РАС и маниакальность</a></h2>
+            <div class="question-meta">1 ответ • Анонимно</div>
+            <div class="question-text">
+                Здравствуйте, уже писал вопрос к сексологу, но хочется и Вам вопрос задать, про маниакальность на запахи, мне говорят, что если специально гнаться за конкретным запахом, то это идёт в приоритет выше работы и т.д. Но я думаю это не так, т.к я чувствовал этот запах на остановке, но никак не зациклился на нём, просто дождался транспорта и поехал на работу. У меня РАС...
+            </div>
+            <div class="doctor-answer-preview">
+                <div class="doctor-info">Врач Сергей Морозов <span class="doctor-spec">(Врач-психиатр, Нейропсихиатр)</span></div>
+                Здравствуйте! Однозначно скажу: в вашем случае это ни в коем случае не маниакальность и не зацикленность. Учитывая наличие РАС (расстройства аутистического спектра)...
+            </div>
+        </div>
+
+        <!-- Вопрос 2 -->
+        <div class="question-card">
+            <h2 class="question-title"><a href="#">Перепады настроения и сенсорная перегрузка вечером</a></h2>
+            <div class="question-meta">3 ответа • Екатерина, 27 лет</div>
+            <div class="question-text">
+                Здравствуйте! К концу рабочего дня в офисе чувствую сильное истощение от шума и яркого света. Начинает казаться, что все вокруг раздражает, появляется сильная тревога. Это проявление астении или нужно дообследование?
+            </div>
+            <div class="doctor-answer-preview">
+                <div class="doctor-info">Врач Марина Волкова <span class="doctor-spec">(Психиатр, Психотерапевт)</span></div>
+                Здравствуйте, Екатерина. Описанное вами состояние очень похоже на классическую сенсорную перегрузку и астенический синдром на фоне повышенной чувствительности...
+            </div>
+        </div>
+
+        <!-- Вопрос 3 -->
+        <div class="question-card">
+            <h2 class="question-title"><a href="#">Навязчивые мысли о проверке закрытых дверей</a></h2>
+            <div class="question-meta">2 ответа • Дмитрий, 31 год</div>
+            <div class="question-text">
+                Перед уходом из дома могу по 10-15 минут проверять, закрыты ли замки и выключен ли утюг. Понимаю головой, что всё выключено, но тревога не уходит. Можно ли это скорректировать?
+            </div>
+            <div class="doctor-answer-preview">
+                <div class="doctor-info">Врач Виктор Григорьев <span class="doctor-spec">(Врач-психиатр)</span></div>
+                Здравствуйте, Дмитрий. Описанные ритуалы часто являются симптомом ОКР или повышенной общей тревожности. Это поддается эффективной коррекции...
+            </div>
+        </div>
+
+        <!-- Вопрос 4 -->
+        <div class="question-card">
+            <h2 class="question-title"><a href="#">Сложности с концентрацией и фокусом внимания</a></h2>
+            <div class="question-meta">5 ответов • Алексей, 24 года</div>
+            <div class="question-text">
+                Очень трудно сосредоточиться на рутинных задачах, постоянная прокрастинация. При этом если тема интересна — могу сидеть 8 часов не отрываясь. К какому специалисту лучше обратиться?
+            </div>
+            <div class="doctor-answer-preview">
+                <div class="doctor-info">Врач Ольга Смирнова <span class="doctor-spec">(Психиатр, СДВГ-специалист)</span></div>
+                Здравствуйте, Алексей. Такие проявления гиперфокуса в сочетании с трудностями рутинного внимания очень часто наблюдаются при нейроотличных особенностях (СДВГ)...
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 СпросиПсихиатра. Все права защищены.
+    </footer>
+
+</body>
+</html>
